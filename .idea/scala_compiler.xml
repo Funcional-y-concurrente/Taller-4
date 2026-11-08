@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="bsp 1" modules="untitled_8d0e0f6372">
+      <parameters>
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-sourceroot" />
+        <parameter value="E:\Ingenieria U\Funcional y concurrente\Taller 4\untitled" />
+      </parameters>
+    </profile>
+  </component>
+</project>

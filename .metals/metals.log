@@ -1,0 +1,235 @@
+2026.11.07 23:05:12 INFO  Started: Metals version 1.6.9 in folders 'E:\Ingenieria U\Funcional y concurrente\Taller 4' for client Visual Studio Code 1.145.2.
+2026.11.07 23:05:12 INFO  Memory monitor started
+2026.11.07 23:05:13 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.11.07 23:05:13 INFO  Attempting to connect to the build server...
+nov 07, 2026 11:05:14 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+nov 07, 2026 11:05:15 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.11.07 23:05:28 ERROR Timeout while sending showMessageRequest
+java.util.concurrent.TimeoutException: Future timed out after [15 seconds]
+	at scala.concurrent.Future$.timeoutError(Future.scala:581)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:258)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:271)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:208)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:125)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:297)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.11.07 23:05:28 ERROR Failed to connect with build server, no functionality will work.
+java.util.NoSuchElementException: key not found: Missed by user
+	at scala.collection.immutable.Map$Map2.apply(Map.scala:316)
+	at scala.meta.internal.bsp.BspConnector.$anonfun$connect$26(BspConnector.scala:228)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.bsp.BspConnector.$anonfun$connect$25(BspConnector.scala:228)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+nov 07, 2026 11:06:12 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+nov 07, 2026 11:06:12 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+nov 07, 2026 11:06:13 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+nov 07, 2026 11:06:13 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.11.07 23:06:31 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\project.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:31 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\project.scala
+2026.11.07 23:06:31 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\project.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:31 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\project.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:31 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\project.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:31 WARN  Could not find semantic tokens for: file:///E:/Ingenieria%20U/Funcional%20y%20concurrente/Taller%204/project.scala
+2026.11.07 23:06:33 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\project.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:33 WARN  Could not find semantic tokens for: file:///E:/Ingenieria%20U/Funcional%20y%20concurrente/Taller%204/project.scala
+2026.11.07 23:06:35 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\project.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:35 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:06:35 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:35 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+nov 07, 2026 11:06:35 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2026.11.07 23:06:35 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:35 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:35 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:36 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:37 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:37 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:37 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:38 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:38 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:38 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:41 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:41 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:43 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:43 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:43 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:44 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:44 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:44 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:06:44 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:45 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:47 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:47 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:47 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:47 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:48 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:06:47 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:49 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:50 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:50 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:50 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:50 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:51 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:06:51 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:52 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:53 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:53 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:54 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:54 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:54 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:06:54 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:55 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:56 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:56 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:56 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:56 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:57 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:06:57 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:57 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:58 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:58 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:58 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:59 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:59 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:06:59 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:07:00 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:00 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:01 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:01 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:02 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:02 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:03 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:07:03 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:05 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:05 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:05 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:05 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:05 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:05 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:06 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:06 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:06 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:06 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:06 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:06 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:06 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:06 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:07 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:07 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:07 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:07 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:07 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:07:07 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:08 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:08 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:08 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:09 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:09 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:09 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:09 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:09 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:09 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:09 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:09 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:10 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:10 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:07:10 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:10 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:10 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:11 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:11 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:11 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:11 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:11 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:11 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:11 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:11 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:12 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:12 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:13 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:13 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:07:12 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:13 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:13 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:14 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:14 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:14 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:14 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:14 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:14 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:14 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:15 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:15 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:15 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:15 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:07:15 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:15 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:15 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:15 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:18 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:18 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:18 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:18 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:18 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:18 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:18 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:18 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:19 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:19 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:19 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:07:20 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:19 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:19 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:19 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:21 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:21 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:21 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:21 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:21 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:21 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:21 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:21 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:22 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:22 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:22 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:07:22 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:22 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:22 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:23 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:23 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:23 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:23 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:24 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:23 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:24 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:23 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:24 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:25 WARN  no build target for: E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala
+2026.11.07 23:07:25 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:26 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:41 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:45 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:07:45 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+nov 07, 2026 11:07:46 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.11.07 23:07:45 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+nov 07, 2026 11:07:47 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.11.07 23:07:47 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.11.07 23:08:26 INFO  no build target found for E:\Ingenieria U\Funcional y concurrente\Taller 4\src\main\scala\Anagramas\package.scala. Using presentation compiler with project's scala-library version: 3.3.8
