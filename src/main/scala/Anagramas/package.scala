@@ -15,14 +15,16 @@ package object Anagramas {
         case (c, lista) => (c, lista.size)
       }).sortBy(_._1)
   }
+
+  def lOcFrase(f: Frase): Ocurrencias = {
+    val palabraUnida = f.mkString
+
+    lOcPal(palabraUnida)
+  }
 //
-//  def lOcFrase(f: Frase): Ocurrencias = {
-//    //
-//  }
-//
-//  lazy val diccionarioPorOcurrencias: Map[Ocurrencias, List[Palabra]] = {
-//    //
-//  }
+    lazy val diccionarioPorOcurrencias: Map[Ocurrencias, List[Palabra]] = {
+      diccionario.groupBy(palabra => lOcPal(palabra))
+    }
 //
 //  def anagramasDePalabra(palabra: Palabra): List[Palabra] = {
 //    //

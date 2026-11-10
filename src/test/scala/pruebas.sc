@@ -25,13 +25,19 @@ lOcPal("moco")
 
 // 1.2. Pruebas para lOcFrase
 // Caso 1:
+lOcFrase(List("mocosos", "y"))
 // Caso 2:
+lOcFrase(List("moco", "y", "mocosos", "casa"))
 // Caso 3:
+lOcFrase(List("manejar", "por", "cinco", "horas"))
 // Caso 4:
+lOcFrase(List("jugar", "con", "mis", "amigos"))
 // Caso 5:
+lOcFrase(List("Mis", "plegarias", "fueron", "escuchadas"))
 
 // 1.3. Pruebas para diccionarioPorOcurrencias
 // Caso 1:
+println(diccionarioPorOcurrencias)
 // Caso 2:
 // Caso 3:
 // Caso 4:

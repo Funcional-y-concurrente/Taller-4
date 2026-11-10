@@ -24,14 +24,19 @@ lOcPal("casa")
 // Caso 2:
 lOcPal("mocosos")
 // Caso 3:
-lOcPal("")
+lOcPal("ocasos")
 // Caso 4:
+lOcPal("cayo")
 // Caso 5:
+lOcPal("moco")
 
 // 1.2. Pruebas para lOcFrase
 // Caso 1:
+lOcFrase(List("mocosos", "y"))
 // Caso 2:
+lOcFrase(List("moco", "y", "mocosos", "casa"))
 // Caso 3:
+lOcFrase(List(""))
 // Caso 4:
 // Caso 5:
 
