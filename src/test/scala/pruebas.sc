@@ -36,12 +36,8 @@ lOcFrase(List("jugar", "con", "mis", "amigos"))
 lOcFrase(List("Mis", "plegarias", "fueron", "escuchadas"))
 
 // 1.3. Pruebas para diccionarioPorOcurrencias
-// Caso 1:
 println(diccionarioPorOcurrencias)
-// Caso 2:
-// Caso 3:
-// Caso 4:
-// Caso 5:
+
 
 // 1.3. Pruebas para anagramasDePalabra
 // Caso 1:
