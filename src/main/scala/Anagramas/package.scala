@@ -8,30 +8,35 @@ package object Anagramas {
   )
 
   def lOcPal(p: Palabra): Ocurrencias = {
-    //
+    p.toList
+      .groupBy(c => c)
+      .toList
+      .map({
+        case (c, lista) => (c, lista.size)
+      }).sortBy(_._1)
   }
-
-  def lOcFrase(f: Frase): Ocurrencias = {
-    //
-  }
-
-  lazy val diccionarioPorOcurrencias: Map[Ocurrencias, List[Palabra]] = {
-    //
-  }
-
-  def anagramasDePalabra(palabra: Palabra): List[Palabra] = {
-    //
-  }
-
-  def combinaciones(locurrencias: Ocurrencias): List[Ocurrencias] = {
-    //
-  }
-
-  def complemento(lOc: Ocurrencias, slOc: Ocurrencias): Ocurrencias = {
-    //
-  }
-
-  def anagramasDeFrase(sentence: Frase): List[Frase] = {
-    //
-  }
+//
+//  def lOcFrase(f: Frase): Ocurrencias = {
+//    //
+//  }
+//
+//  lazy val diccionarioPorOcurrencias: Map[Ocurrencias, List[Palabra]] = {
+//    //
+//  }
+//
+//  def anagramasDePalabra(palabra: Palabra): List[Palabra] = {
+//    //
+//  }
+//
+//  def combinaciones(locurrencias: Ocurrencias): List[Ocurrencias] = {
+//    //
+//  }
+//
+//  def complemento(lOc: Ocurrencias, slOc: Ocurrencias): Ocurrencias = {
+//    //
+//  }
+//
+//  def anagramasDeFrase(sentence: Frase): List[Frase] = {
+//    //
+//  }
 }

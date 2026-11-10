@@ -13,10 +13,15 @@ import Anagramas.*
 
 // 1.2. Pruebas para lOcPal
 // Caso 1:
+lOcPal("casa")
 // Caso 2:
+lOcPal("mocosos")
 // Caso 3:
+lOcPal("ocasos")
 // Caso 4:
+lOcPal("cayo")
 // Caso 5:
+lOcPal("moco")
 
 // 1.2. Pruebas para lOcFrase
 // Caso 1:

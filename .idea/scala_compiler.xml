@@ -8,5 +8,12 @@
         <parameter value="E:\Ingenieria U\Funcional y concurrente\Taller 4\untitled" />
       </parameters>
     </profile>
+    <profile name="bsp 2" modules="Taller-4_b3481ba15c">
+      <parameters>
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-sourceroot" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+    </profile>
   </component>
 </project>
